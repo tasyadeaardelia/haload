@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@400;500;600;700&display=swap');
+
+@media only screen and (max-device-width: 540px) {
+    .section-service {
+        height: 3100px !important; 
+    }
+    .section-service .card-service {
+        height: 400px !important;
+    }
+    .section-why-us {
+        margin-top: -260px !important;
+        height: 1100px !important;
+    }
+    .section-now .section-now-word {
+        font-size: 20px !important;
+        width: 15px;
+        margin-top: -40px !important;
+    }
+    
+    .section-now .btn-now {
+        width: 152px !important;
+        height: 42px !important;
+        margin-left: 50px !important;
+        margin-top: 100px !important;
+        padding-top: 6px !important;
+    }
+    
+    .section-now .btn-daftar {
+        margin-top: 15px !important;
+        margin-left: 50px !important;
+        width: 152px !important;
+        height: 42px !important;
+        padding-top: 6px !important;
+    }
+
+    .section-testimonial {
+        height: 600px !important;
+    }
+
+    .section-testimonial .control-img {
+        margin-top: -130px !important;
+    }
+
+    .section-alltalent {
+        height: 1010px !important;
+    }
+
+    .content-talent {
+        padding-bottom: 50px !important;
+    }
+
+    .section-supportedby {
+        height: 200px !important;
+    }
+
+    .supportedby-content .content-k {
+        padding-top: 40px;
+        padding-left: 30px !important;
+    }
+
+}
+
+/* untuk device ukuran lebih besar dari 768 */
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+    .section-service {
+        height: 2800px !important;
+    }
+
+    .section-why-us {
+        margin-top: -260px !important;
+    }
+    .section-now .section-now-word {
+        font-size: 30px !important;
+        width: 15px;
+        margin-top: -50px !important;
+    }
+    .section-now .btn-now {
+        margin-top: 100px !important;
+        margin-left: 60px !important;
+    }
+    
+    .section-now .btn-daftar {
+        margin-top: 10px !important;
+        margin-left: 60px !important;
+    }
+
+    .section-testimonial .control-img {
+        margin-top: -120px !important;
+    }
+
+    .section-alltalent {
+        height: 600px !important;
+    }
+    .supportedby-content .content-k {
+        padding-top: 0px !important;
+        padding-left: 30px !important;
+    }
+}
+
+/* ukuran perangkat lebih besar dari 1024px */
+@media only screen and (min-width: 1024px){
+    .section-service {
+        height: 1200px !important;
+    }
+    .section-service .card-service {
+        height: 400px !important;
+    }
+    .section-now .section-now-word {
+        font-size: 28px !important;
+    }
+    .section-testimonial .control-img {
+        margin-top: -120px !important;
+    }
+}
+
+/* header */
+.my-header{
+    height: 600px;
+    background: linear-gradient(180deg, #161E2F -10%, rgba(23, 71, 115, 0.99) 99.86%) !important;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 28.44px;
+    text-align: center;
+}
+
+.navbar .navbar-brand:hover{
+    color: #f9f9f9;
+}
+
+.nav-item .nav-link {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar .btn {
+    font-family: 'Montserrat', sans-serif;
+    background:  #286c99;
+    border-radius: 6px;
+    width: 130px;
+    height: 40px;
+    left: 1120px;
+    top: 10px;
+    color: white;   
+}
+
+.navbar .btn:hover{
+    background-color: #6ac2fd;
+    color: #f9f9f9;
+}
+
+.title-header {
+    color: white;
+}
+
+.title-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 150px;
+    line-height: 50px;
+}
+
+.title-header p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.btn-header {
+    border-radius: 6px;
+    background-color: #18A0FB;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-header:hover {
+    color: white;
+    background-color:  #73c7ff ;
+}
+
+/* akhir header */
+
+/* main css */
+
+/* section service css */
+.section-service {
+    background-color: #f9f9f9;
+    height: 1200px; 
+}
+
+.section-service .section-service-title{
+    padding-top: 72px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.section-service .card-service {
+    height: 350px;
+    top: 52px;
+    margin-bottom: 56px;
+    border-radius: 20px;
+    border: 1px solid #BCB2B2;
+    box-shadow: 0px 4px 10px rgba(7, 67, 146, 0.808);
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.section-service .card-service:hover {
+    background-color: whitesmoke;
+    box-shadow: 0px 4px 10px rgba(7, 67, 146, 0.808);
+}
+
+
+.section-service .card-service h3 {
+    padding-top: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-service .card-service p {
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 18px; */
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* akhir section-service css */
+
+/* section why us css */
+.section-why-us {
+    margin-top: -200px;
+    height: 800px;
+    background: linear-gradient(180deg, #00126D 0%, rgba(46, 197, 218, 0.96) 100%);
+    color: #f9f9f9;
+}
+
+.section-why-us .section-why-us-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 600px;
+    letter-spacing: -1.5%;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.section-why-us .card {
+    background-color: transparent;
+}
+
+.section-why-us .btn-link {
+    color: white;
+}
+/* akhir section why us */
+
+/* section testimonial */
+.section-testimonial {
+    height: 500px;
+    background: #f9f9f9; 
+    margin-top: -49px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-testimonial h2 {
+    padding-top: 40px;
+    font-weight: 600;
+}
+
+.section-testimonial h4 {
+    font-weight: 500;
+}
+
+.testimonial img {
+    width: 200px;
+}
+.testimonial p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* section now css */
+.section-now {
+    height: 340px;
+    background: linear-gradient(92.33deg, #134F93 42.78%, rgba(255, 255, 255, 0) 42.95%);
+}
+
+.section-now .section-now-word {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 140px;
+}
+
+.section-now .btn-now {
+    margin-top: 140px;
+    width: 192px;
+    height: 52px;
+    background: #18A0FB;
+    border-radius: 6px;
+    color: white;
+    padding-top: 12px;
+}
+
+.section-now .btn-daftar {
+    margin-top: 140px;
+    margin-left: 12px;
+    border-radius: 6px;
+    width: 192px;
+    height: 52px;
+    padding-top: 12px;
+}
+/* akhir css section now */
+
+.section-alltalent {
+    background-color: #f9f9f9;
+    height: 500px;
+    margin-top: -49px;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-alltalent h3 {
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+.section-alltalent img {
+    width: 100px;
+}
+
+.section-alltalent .talent-name {
+    font-weight: 500;
+    padding-top: 30px;
+}
+/* section supported by css */
+.section-supportedby {
+    background-color: white;
+    height: 100px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.supportedby-content {
+    margin-top: 56px;
+}
+
+.supportedby-content .content-s {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 29px;
+}
+
+.supportedby-content .content-k {
+    padding-left: 400px;
+}
+
+.supportedby-content .content-k h3 {
+    color: #060474;
+    font-weight: bold;
+}
+
+.supportedby-content .content-k p {
+    font-weight: lighter;
+}
+
+/* akhir main css */
+
+footer {
+    background: linear-gradient(180deg, #172A41 0%, #19456E 100%);
+    color: white;
+    padding-top: 80px;
+}
+
+.footer-brand {
+    font-family: 'Comfortaa', cursive;
+    font-size: 28.44px;
+}
+
+.footer h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+/* .footer hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  } */
